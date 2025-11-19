@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* IdenfyReactNativeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* IdenfyReactNativeExampleTests.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		3B6AE2171211136DF9556A65 /* Pods_IdenfyReactNativeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D60D35798C42DE8D5D9FCB /* Pods_IdenfyReactNativeExample.framework */; };
 		49ADD8CE2DE43AA900683460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADD8CD2DE43AA900683460 /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B914B8B2902C45F00432D60 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B914B8A2902C45F00432D60 /* File.swift */; };
-		D6985A3853F53F7CA00A106D /* Pods_IdenfyReactNativeExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCB4A1068CFD84CB0F46F6B /* Pods_IdenfyReactNativeExample.framework */; };
+		B47479FA357C8200256F9858 /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E732C5D62F84FCA094A6AA /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework */; };
 		DB117A1161393B628E0012A2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AF205F970C3F9556BD81995C /* PrivacyInfo.xcprivacy */; };
-		FB0B6297F23BE7D4E12E3A2F /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81C148C9820E7A90F93E30D /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,21 +31,21 @@
 		00E356EE1AD99517003FC87E /* IdenfyReactNativeExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdenfyReactNativeExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* IdenfyReactNativeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdenfyReactNativeExampleTests.m; sourceTree = "<group>"; };
-		1222D579DBD417ABE1A0F801 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		0FE5E21B10C7E39640155A77 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* IdenfyReactNativeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdenfyReactNativeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IdenfyReactNativeExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IdenfyReactNativeExample/Info.plist; sourceTree = "<group>"; };
+		378FD48F8BE1D27619D055AA /* Pods-IdenfyReactNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
 		49ADD8CD2DE43AA900683460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B812FD6CBAB6A99752A55E5 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5CCB4A1068CFD84CB0F46F6B /* Pods_IdenfyReactNativeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyReactNativeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D68AF41E8FD97E02FBB6F99 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = IdenfyReactNativeExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B914B892902C45F00432D60 /* IdenfyReactNativeExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IdenfyReactNativeExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		8B914B8A2902C45F00432D60 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		A2EEC8392E13B1DFF3B567A8 /* Pods-IdenfyReactNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample.release.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample.release.xcconfig"; sourceTree = "<group>"; };
-		A81C148C9820E7A90F93E30D /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF205F970C3F9556BD81995C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = IdenfyReactNativeExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		C9158471AFF2AB2C583C6C9B /* Pods-IdenfyReactNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample.debug.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B73ED97EC0542F95D2E6526D /* Pods-IdenfyReactNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdenfyReactNativeExample.release.xcconfig"; path = "Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1E732C5D62F84FCA094A6AA /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D60D35798C42DE8D5D9FCB /* Pods_IdenfyReactNativeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdenfyReactNativeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB0B6297F23BE7D4E12E3A2F /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework in Frameworks */,
+				B47479FA357C8200256F9858 /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6985A3853F53F7CA00A106D /* Pods_IdenfyReactNativeExample.framework in Frameworks */,
+				3B6AE2171211136DF9556A65 /* Pods_IdenfyReactNativeExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5CCB4A1068CFD84CB0F46F6B /* Pods_IdenfyReactNativeExample.framework */,
-				A81C148C9820E7A90F93E30D /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework */,
+				F3D60D35798C42DE8D5D9FCB /* Pods_IdenfyReactNativeExample.framework */,
+				F1E732C5D62F84FCA094A6AA /* Pods_IdenfyReactNativeExample_IdenfyReactNativeExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,10 +143,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9158471AFF2AB2C583C6C9B /* Pods-IdenfyReactNativeExample.debug.xcconfig */,
-				A2EEC8392E13B1DFF3B567A8 /* Pods-IdenfyReactNativeExample.release.xcconfig */,
-				4B812FD6CBAB6A99752A55E5 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig */,
-				1222D579DBD417ABE1A0F801 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig */,
+				378FD48F8BE1D27619D055AA /* Pods-IdenfyReactNativeExample.debug.xcconfig */,
+				B73ED97EC0542F95D2E6526D /* Pods-IdenfyReactNativeExample.release.xcconfig */,
+				0FE5E21B10C7E39640155A77 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig */,
+				4D68AF41E8FD97E02FBB6F99 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -158,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "IdenfyReactNativeExampleTests" */;
 			buildPhases = (
-				66FF6711F1E63D137F940BEA /* [CP] Check Pods Manifest.lock */,
+				9FCDDA756635122AC1EBC6D9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7B40F03B2F3C559F1CE227A0 /* [CP] Embed Pods Frameworks */,
-				78B72F58DE98BDF87E4E8247 /* [CP] Copy Pods Resources */,
+				11D652E6E575038D9104D24F /* [CP] Embed Pods Frameworks */,
+				DC6A626AAF7F24915F70C075 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,14 +179,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "IdenfyReactNativeExample" */;
 			buildPhases = (
-				CCB7BB88DA0E310810CDD259 /* [CP] Check Pods Manifest.lock */,
+				360D02B0A927A4C990A70883 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BEBD632FE0FBE9421F8E9E9A /* [CP] Embed Pods Frameworks */,
-				E00EC6D46B5D74EFAB4A3816 /* [CP] Copy Pods Resources */,
+				38AC1F7601CF36D8DA6EB37E /* [CP] Embed Pods Frameworks */,
+				A9B7A58BC7FE0727095AFACB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,46 +270,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		66FF6711F1E63D137F940BEA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		78B72F58DE98BDF87E4E8247 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B40F03B2F3C559F1CE227A0 /* [CP] Embed Pods Frameworks */ = {
+		11D652E6E575038D9104D24F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,24 +287,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEBD632FE0FBE9421F8E9E9A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCB7BB88DA0E310810CDD259 /* [CP] Check Pods Manifest.lock */ = {
+		360D02B0A927A4C990A70883 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,7 +309,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E00EC6D46B5D74EFAB4A3816 /* [CP] Copy Pods Resources */ = {
+		38AC1F7601CF36D8DA6EB37E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FCDDA756635122AC1EBC6D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B7A58BC7FE0727095AFACB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,6 +363,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample/Pods-IdenfyReactNativeExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6A626AAF7F24915F70C075 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests/Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -434,7 +434,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B812FD6CBAB6A99752A55E5 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 0FE5E21B10C7E39640155A77 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,7 +462,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1222D579DBD417ABE1A0F801 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig */;
+			baseConfigurationReference = 4D68AF41E8FD97E02FBB6F99 /* Pods-IdenfyReactNativeExample-IdenfyReactNativeExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,7 +487,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9158471AFF2AB2C583C6C9B /* Pods-IdenfyReactNativeExample.debug.xcconfig */;
+			baseConfigurationReference = 378FD48F8BE1D27619D055AA /* Pods-IdenfyReactNativeExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -516,7 +516,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2EEC8392E13B1DFF3B567A8 /* Pods-IdenfyReactNativeExample.release.xcconfig */;
+			baseConfigurationReference = B73ED97EC0542F95D2E6526D /* Pods-IdenfyReactNativeExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
