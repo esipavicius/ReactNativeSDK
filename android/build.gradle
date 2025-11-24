@@ -9,7 +9,7 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:8.5.1'
+    classpath 'com.android.tools.build:gradle:8.9.2'
     // noinspection DifferentKotlinGradleVersion
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
   }
@@ -137,7 +137,7 @@ dependencies {
     //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation 'com.github.idenfy:sdk-api:8.6.8'
+  implementation 'com.github.idenfy:sdk-api:8.7.0'
   implementation 'androidx.multidex:multidex:2.0.1'
 // From node_modules
 }
