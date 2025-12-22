@@ -1,28 +1,51 @@
 {
+  "extends": "@react-native/typescript-config",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/Pods"
+  ],
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "idenfy-react-native": ["./src/index"]
+      "idenfy-react-native": [
+        "./src/index"
+      ]
     },
+    /* Language & Environment */
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "jsx": "react-jsx",
+    /* Modules */
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    /* Interop */
+    "esModuleInterop": true,
+    /* Type Safety */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "esModuleInterop": true,
-    "verbatimModuleSyntax": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react",
-    "lib": ["esnext"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noImplicitUseStrict": false,
-    "noStrictGenericChecks": false,
-    "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "resolveJsonModule": true,
+    /* Performance */
     "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext"
+    "forceConsistentCasingInFileNames": true,
+    /* React Native globals */
+    "types": [
+      "react",
+      "react-native",
+      "jest"
+    ]
   }
 }
