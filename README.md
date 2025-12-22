@@ -31,7 +31,7 @@ The SDK requires token for starting initialization. [Token generation guide](htt
 
 Minimum required versions by the platform:
 
-**React Native - 0.79.2**
+**React Native - 0.81.5**
 
 **IOS - 15.1**
 
