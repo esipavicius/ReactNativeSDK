@@ -10,7 +10,7 @@ PODS:
   - hermes-engine (0.81.5):
     - hermes-engine/Pre-built (= 0.81.5)
   - hermes-engine/Pre-built (0.81.5)
-  - idenfy-react-native (2.6.5):
+  - idenfy-react-native (2.6.6):
     - iDenfySDK-Static/iDenfyLiveness-Static (= 8.7.6)
     - RCT-Folly
     - RCTRequired
@@ -2602,7 +2602,7 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: 9f4dfe93326146a1c99eb535b1cb0b857a3cd172
-  idenfy-react-native: c6854a239b963288e96d4d8fb589996cb8e087f0
+  idenfy-react-native: f9b9f4038708ce97b11650b6c2af00591c43ac59
   iDenfySDK-Static: bbacde7044910842788333bc990b44e9c1da46f0
   lottie-ios: a881093fab623c467d3bce374367755c272bdd59
   RCT-Folly: 59ec0ac1f2f39672a0c6e6cecdd39383b764646f
