@@ -36,7 +36,7 @@ class IdenfyReactNativeModule(reactContext: ReactApplicationContext) :
   fun start(config: ReadableMap, promise: Promise) {
     idenfyReactNativeCallbacksUseCase.setCallbacksReceiver(promise)
 
-    val currentActivity = currentActivity
+    val currentActivity = getCurrentActivity()
 
     if (currentActivity == null) {
       idenfyReactNativeCallbacksUseCase.getCallbackReceiver()
@@ -75,7 +75,7 @@ class IdenfyReactNativeModule(reactContext: ReactApplicationContext) :
   fun startFaceReAuth(config: ReadableMap, promise: Promise) {
     idenfyReactNativeCallbacksUseCase.setCallbacksReceiver(promise)
 
-    val currentActivity = currentActivity
+    val currentActivity = getCurrentActivity()
 
     if (currentActivity == null) {
       idenfyReactNativeCallbacksUseCase.getCallbackReceiver()

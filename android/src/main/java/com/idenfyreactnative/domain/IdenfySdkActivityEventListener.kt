@@ -18,7 +18,7 @@ internal class IdenfySdkActivityEventListener(private val idenfyReactNativeCallb
                                      private val nativeResponseToReactNativeResponseMapper: NativeResponseToReactNativeResponseMapper) : BaseActivityEventListener() {
 
     override fun onActivityResult(activity: Activity, requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
+        super.onActivityResult(requestCode, resultCode, data!!)
         val callbackReceiver = idenfyReactNativeCallbacksUseCase.getCallbackReceiver() ?: return
 
         if (requestCode == IdenfyController.IDENFY_REQUEST_CODE) {
