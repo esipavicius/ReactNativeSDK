@@ -10,15 +10,15 @@ PODS:
   - hermes-engine (0.81.5):
     - hermes-engine/Pre-built (= 0.81.5)
   - hermes-engine/Pre-built (0.81.5)
-  - idenfy-react-native (2.6.7):
-    - iDenfySDK-Static/iDenfyLiveness-Static (= 8.7.7)
+  - idenfy-react-native (2.6.8):
+    - iDenfySDK-Static/iDenfyLiveness-Static (= 8.7.8)
     - RCT-Folly
     - RCTRequired
     - RCTTypeSafety
     - React-Codegen
     - React-Core
     - ReactCommon/turbomodule/core
-  - iDenfySDK-Static/iDenfyLiveness-Static (8.7.7):
+  - iDenfySDK-Static/iDenfyLiveness-Static (8.7.8):
     - lottie-ios (= 4.5.0)
   - lottie-ios (4.5.0)
   - RCT-Folly (2024.11.18.00):
@@ -2436,7 +2436,7 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - iDenfySDK-Static
     - lottie-ios
     - React-Codegen
@@ -2602,8 +2602,8 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: 9f4dfe93326146a1c99eb535b1cb0b857a3cd172
-  idenfy-react-native: 3830c52c9b041bd997c4e095f158f657b11e03b7
-  iDenfySDK-Static: 91b395bf063e228cef3b7c790ead68ddb00cfbb1
+  idenfy-react-native: 6dc0c610b6fa2b799e1550afc80eda8bb6ca7514
+  iDenfySDK-Static: ff9ebb36a9e08e052f43382b0793cba2025c4c14
   lottie-ios: a881093fab623c467d3bce374367755c272bdd59
   RCT-Folly: 59ec0ac1f2f39672a0c6e6cecdd39383b764646f
   RCTDeprecation: 5eb1d2eeff5fb91151e8a8eef45b6c7658b6c897
@@ -2673,6 +2673,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 1e91d83a5286cfd3b725eade59274c92270540d4
 
-PODFILE CHECKSUM: 3b2cce3bf447d788c0be1348acf7023b2ca675c2
+PODFILE CHECKSUM: 265da556e670f0d6eb640169d969251bcaae33aa
 
 COCOAPODS: 1.16.2
